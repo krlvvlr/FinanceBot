@@ -10,7 +10,6 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 
 import os
 
-# Теперь бот будет брать токен прямо из настроек Heroku автоматически
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 DB_NAME = "finance.db"
